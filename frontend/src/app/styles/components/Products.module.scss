@@ -1,0 +1,34 @@
+.card {
+  margin-top: 45px;
+  margin-bottom: 100px;
+  width: 319px;
+  height: 211px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px black;
+}
+
+.informations {
+  margin-top: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.productName {
+  color: #F5643D;
+  font-size: 18px;
+}
+
+.note {
+  margin-top: 5px;
+  color: #A1A1A1;
+  font-size: 12px;
+}
+
+.value {
+  font-weight: bold;
+  color: #F5643D;
+  font-size: 18px;
+}

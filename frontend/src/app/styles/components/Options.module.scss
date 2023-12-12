@@ -1,0 +1,23 @@
+$background-color-white: #F9F0EE;
+$background-color-orange: #F5643D;
+$font-color: #323351;
+
+:export {
+  backgroundColorWhite: $background-color-white;
+  backgroundColorOrange: $background-color-orange;
+  fontColor: $font-color;
+}
+
+.container {
+  margin: 90px auto 0;
+  width: 1080px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 360px;
+}

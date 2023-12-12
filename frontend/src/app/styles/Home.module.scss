@@ -1,0 +1,16 @@
+.backgroundColorBlue {
+  background-color: #313352;
+  height: 509px;
+}
+
+.containerProducts {
+  margin: 90px auto 0;
+  width: 1080px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

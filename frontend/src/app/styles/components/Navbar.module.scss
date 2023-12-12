@@ -1,0 +1,71 @@
+.div {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 30px 0;
+  width: 1080px;
+  margin: 0;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+
+.li {
+  list-style-type: none;
+  padding: 0 25px;
+}
+
+.li a {
+  text-decoration: none;
+  color: white;
+}
+
+.li a:hover {
+  text-decoration: underline;
+}
+
+.liProducts {
+  list-style-type: none;
+  padding: 0 25px;
+  color: #F5643D;
+
+}
+
+.liProducts a {
+  text-decoration: none;
+  color: #F5643D;
+}
+
+.liProducts:hover {
+  text-decoration: underline;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  background-color: #444562;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button img {
+  padding-right: 15px;
+}
